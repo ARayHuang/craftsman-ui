@@ -69,3 +69,4 @@ yarn-error.log*
 /files/test
 
 storybook-static/
+demo_stories/
