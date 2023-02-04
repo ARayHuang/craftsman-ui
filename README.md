@@ -2,6 +2,7 @@
 
 - React 18
 - Storybook
+- Typescript
 
 # Development
 
