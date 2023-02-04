@@ -1,9 +1,11 @@
 *.swp
 *.*~
 project.lock.json
-.DS_Store
 *.pyc
 nupkg/
+
+# Mac files
+.DS_Store
 
 # Visual Studio Code
 .vscode
@@ -38,8 +40,6 @@ msbuild.wrn
 node_modules/
 package-lock.json
 
-# vs code
-.vscode
 
 # build
 dist/
@@ -67,3 +67,5 @@ yarn-debug.log*
 yarn-error.log*
 
 /files/test
+
+storybook-static/
