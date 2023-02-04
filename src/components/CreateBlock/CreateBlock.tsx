@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Box, Button, Fade, useDisclosure } from "@chakra-ui/react";
 
-const CreateBlock = ({ onCreate }) => {
+const CreateBlock = ({ onCreate }: { onCreate: () => void }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (

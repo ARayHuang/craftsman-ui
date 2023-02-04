@@ -9,12 +9,14 @@ export default {
 
 export const Create = () => {
   const handleCreate = () => {
-    console.log('Create!')
-  }
+    console.log("Create!");
+  };
 
   return (
     <>
-      <Heading as="h3" fontSize="sm" mb={2}>Hover ↓</Heading>
+      <Heading as="h3" fontSize="sm" mb={2}>
+        Hover ↓
+      </Heading>
       <CreateBlock onCreate={handleCreate} />
     </>
   );
